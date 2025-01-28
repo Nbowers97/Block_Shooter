@@ -5,10 +5,10 @@ export default class Player {
     this.x = x;
     this.y = y;
     this.bulletController = bulletController;
-    this.width = 50;
-    this.height = 50;
-    this.speed = 10;
-    this.radius = 90;
+    this.width = 30;
+    this.height = 30;
+    this.speed = 8;
+    this.radius = 50;
 
     document.addEventListener("keydown", this.keydown);
     document.addEventListener("keyup", this.keyup);
