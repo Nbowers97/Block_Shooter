@@ -8,7 +8,7 @@ const ctx = canvas.getContext("2d");
 // Set canvas dimensions.
 
 canvas.width = 550;
-canvas.height = 800;
+canvas.height = 600;
 
 // Create Player.
 
