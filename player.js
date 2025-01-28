@@ -8,7 +8,7 @@ export default class Player {
     this.width = 50;
     this.height = 50;
     this.speed = 10;
-    this.radius = 50;
+    this.radius = 90;
 
     document.addEventListener("keydown", this.keydown);
     document.addEventListener("keyup", this.keyup);
